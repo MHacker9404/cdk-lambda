@@ -2,8 +2,8 @@ const { App } = require('@aws-cdk/core')
 const LambdaFunction = require('./lambda-stack')
 
 // Define names
-const STACK_NAME = 'APP_NAME';
-const STACK_ENV = 'DEV';
+const STACK_NAME = 'APP_NAME'
+const STACK_ENV = 'DEV'
 const MY_ACCOUNT = '123456789'
 
 // Create the app
