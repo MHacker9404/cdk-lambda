@@ -2,6 +2,8 @@
 
 Use a lambda function to deploy CDK applications in a serverless way!
 
+The following is an example of how to use lambda to deploy multiple but similar cdk stacks
+
 # Step 1
 Create a nodejs lambda layer with cdk dependencies
 
@@ -18,3 +20,7 @@ Create your serverless deployment function. Add the layer from above, grant func
 
 # Step 3
 Run the function to deploy the lambda stack
+
+# TODO
+Make variables configurable
+  * Function name, stage and runtime
