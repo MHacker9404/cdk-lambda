@@ -1,0 +1,11 @@
+{
+    "name": "cdk-lambda",
+    "version": "1.0.0",
+    "description": "CDK layer dependencies",
+    "dependencies": {
+      "aws-cdk": "^1.22.0"
+    },
+    "devDependencies": {},
+    "author": "",
+    "license": "MIT"
+  }
